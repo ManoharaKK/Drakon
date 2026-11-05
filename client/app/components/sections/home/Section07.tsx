@@ -8,12 +8,13 @@ function Section07() {
           <PowerTainMarquee />
         <video
                 className=" w-full h-[80vh] object-cover"
-                src="/videos/home/hero.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline
-            />
+            >
+                <source src="/videos/home/Hero.mp4" type="video/mp4" />
+            </video>
             <div className='mb-8 xl:mb-16'>
             <PowerTainMarquee />
             </div>
