@@ -1,5 +1,5 @@
 import React from "react";
-import PowerTainMarquee from "./PowerTainMarquee";
+import DrakonMarquee from "./PowerTainMarquee";
 import Image from "next/image";
 import Link from "next/link";
 import Equipment from "../../buttons/Equipment";
@@ -8,7 +8,7 @@ import Buyproduct from "../../buttons/Buyproduct";
 function Section02() {
     return (
         <section className="relative z-20 flex min-h-dvh flex-col bg-black shadow-[0_-12px_40px_rgba(0,0,0,0.45)]">
-            <PowerTainMarquee />
+            <DrakonMarquee />
 
             <div className="container-global py-16">
                 <h2 className="subtitle text-right text-white/15">

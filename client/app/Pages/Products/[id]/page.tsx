@@ -64,6 +64,8 @@ type ProductDetail = {
   isFeatured?: boolean;
 };
 
+const WHATSAPP_NUMBER = '94754947171'
+
 function SectionTitle({ children }: { children: ReactNode }) {
   return (
     <h2 className="mb-3 border-b border-black/10 pb-2 text-xs font-semibold uppercase tracking-wide text-black/60">
@@ -427,6 +429,24 @@ export default function ProductDetailPage() {
                   <button
                     type="button"
                     disabled={!product.inStock}
+                    onClick={() => {
+                      const pageUrl = window.location.href
+                      const imageUrl = product.thumbnail
+                        ? `${window.location.origin}${product.thumbnail}`
+                        : ''
+                      const price = `$${Number(salePrice).toFixed(2)}`
+                      const message = encodeURIComponent(
+                        `Hi DRAKON! 👋 I'd like to buy:\n\n` +
+                        `🛒 *${product.name}*\n` +
+                        `💰 Price: ${price}${(product.discount ?? 0) > 0 ? ` (${product.discount}% off)` : ''}\n` +
+                        (product.brand ? `🏷️ Brand: ${product.brand}\n` : '') +
+                        (product.sku ? `📦 SKU: ${product.sku}\n` : '') +
+                        `\n🔗 Product page: ${pageUrl}\n` +
+                        (imageUrl ? `🖼️ Image: ${imageUrl}\n` : '') +
+                        `\nPlease let me know the next steps! 🙏`
+                      )
+                      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank')
+                    }}
                     className="w-full border border-black bg-black px-4 py-3 text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-black focus:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:border-black/30 disabled:bg-black/35 disabled:text-white/80 disabled:hover:bg-black/35 disabled:hover:text-white/80"
                   >
                     Buy product
