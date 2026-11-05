@@ -1,0 +1,248 @@
+@import "tailwindcss";
+
+/* ================= LIGHT THEME ================= */
+:root {
+  /* Background */
+  --background: #000000;
+
+  /* Text */
+  --text-primary: #ffffff;
+  --text-secondary: #000000;
+  
+  /* Brand / UI colors */
+  --color-primary: #b3b3b3;
+  --color-secondary: #ffffff;
+  --color-third: #000000;
+
+  /* Buttons */
+  --button-bg: var(--color-third);
+}
+
+/* ================= TAILWIND THEME MAPPING ================= */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-third: var(--color-third);
+
+  --color-button-bg: var(--button-bg);
+  --color-button-text: var(--button-text);
+
+  --font-family-neutiva: var(--font-neutiva), Arial, Helvetica, sans-serif;
+}
+
+/* ================= DARK THEME ================= */
+@media (prefers-color-scheme: dark) {
+  /* :root */
+}
+
+/* ================= CONTAINER ================= */
+@layer components {
+  .container-global {
+    @apply mx-auto
+           px-6 sm:px-8 md:px-10 lg:px-12 xl:px-16 2xl:px-16;
+  }
+}
+
+/* ================= BASE STYLES ================= */
+@font-face {
+  font-family: "Neutiva";
+  src: url("/fonts/Neutiva/Neutiva-Regular.woff2") format("woff2"),
+       url("/fonts/Neutiva/Neutiva-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neutiva";
+  src: url("/fonts/Neutiva/Neutiva-Bold.woff2") format("woff2"),
+       url("/fonts/Neutiva/Neutiva-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-neutiva), Arial, Helvetica, sans-serif;
+}
+
+/* ================= TYPOGRAPHY ================= */
+h1, h2, h3, h4, h5, h6 {
+  
+  font-family: var(--font-neutiva), Arial, Helvetica, sans-serif;
+}
+
+.description {
+    font-size: 18px;
+    font-family: "Neutiva", Arial, Helvetica, sans-serif;
+    
+}
+.small-description {
+  font-size: 14px;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+  color: #ffffff80;
+}
+
+.white-description {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+.heroo-title {
+  @apply text-[40px] sm:text-[80px] md:text-[70px] lg:text-[100px] xl:text-[100px] 2xl:text-[130px] font-normal uppercase leading-none
+}
+.hero-title {
+  @apply text-[40px] sm:text-[80px] md:text-[100px] lg:text-[150px] xl:text-[150px] 2xl:text-[200px] font-normal uppercase leading-none
+}
+.est{
+  @apply text-[12px] sm:text-[12px] md:text-[16px] lg:text-[16px] xl:text-[16px] 2xl:text-[16px] font-bold
+}
+
+.title {
+  @apply text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-medium
+}
+.subtitle-2 {
+  @apply text-lg sm:text-xl md:text-xl lg:text-xl xl:text-2xl 2xl:text-2xl font-bold ;
+}
+.subtitle {
+  @apply text-base sm:text-xl md:text-xl lg:text-xl xl:text-2xl 2xl:text-xl uppercase ;
+}
+.subtitlehero {
+  @apply text-sm sm:text-xl md:text-xl lg:text-xl xl:text-2xl 2xl:text-xl  ;
+}
+/* ================= BUTTON ================= */
+.primary-button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+.footer-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+.primary2-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+
+.primary2-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.buy-button {
+  
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+
+.buy-button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.primary-button:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+}
+.primary-button-black {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+.secondary-button {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-radius: 9999px;
+  border: 1px solid var(--color-primary);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+.signup-button {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 9999px;
+  border: 1px solid var(--color-primary);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+
+.tertiary-button {
+  background-color: transparent;
+  color: white;
+  border-radius: 9999px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  transition:
+    opacity 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+  font-family: "Neutiva", Arial, Helvetica, sans-serif;
+}
+
+.tertiary-button:hover {
+  background-color: #ffffff;
+  color: var(--color-secondary);
+}
+
+.section {
+  @apply py-16 sm:py-20 md:py-24;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* ================= POWER TAIN MARQUEE ================= */
+@keyframes power-tain-marquee {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.power-tain-marquee-track {
+  animation: power-tain-marquee 45s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .power-tain-marquee-track {
+    animation: none;
+    transform: translate3d(0, 0, 0);
+  }
+}

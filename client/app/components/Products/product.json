@@ -1,0 +1,1175 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/parallettes.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 3,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para1.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 4,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para3.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 5,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para4.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 6,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/parallettes.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 7,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 8,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para1.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      },{
+        "id": 9,
+        "name": "Wooden Parallettes MAX",
+        "slug": "wooden-parallettes-max",
+        "category": "Calisthenics Equipment",
+        "brand": "PowerTrain",
+  
+        "price": 79.99,
+        "discount": 10,
+        "discountedPrice": 71.99,
+  
+        "stock": 50,
+        "rating": 4.9,
+        "reviewCount": 210,
+  
+        "sku": "PT-PAR-001",
+  
+        "tags": [
+          "parallettes",
+          "calisthenics",
+          "handstand",
+          "strength",
+          "home workout"
+        ],
+  
+        "images": [
+          "/images/products/para2.webp",
+          "/images/products/para.webp",
+          "/images/products/para1.webp",
+          "/images/products/para3.webp",
+          "/images/products/para4.webp"
+        ],
+        "thumbnail": "/images/products/para3.webp",
+  
+        "description": "Premium wooden parallettes designed for serious calisthenics athletes. Perfect for handstands, L-sits, push-ups, and planche training with maximum stability and grip.",
+  
+        "highlights": [
+          "Optimal grip due to 40mm beech wood",
+          "Solid construction in wood & steel",
+          "Easy to store & transport",
+          "2 Parallettes with useful accessories"
+        ],
+  
+        "productDetails": [
+          "Optimal grip during your workout due to high-quality beech wood",
+          "Your training partner for life due to durable wood/steel construction",
+          "Highest quality workmanship with non-slip feet",
+          "Includes useful tape for even better grip",
+          "Loadable up to 500 kg per pair",
+          "Easy to assemble within minutes with included tools"
+        ],
+  
+        "specifications": {
+          "handleDiameter": "40mm",
+          "handleLength": "38cm",
+          "dimensions": "50 x 35 x 30cm",
+          "weight": "5.6kg (pair)"
+        },
+  
+        "careGuide": [
+          "Clean with a damp cloth only",
+          "Do not use chemical detergents",
+          "Store in a dry place",
+          "Dry immediately if exposed to moisture",
+          "Avoid contact with salt water",
+          "Clean rubber feet regularly for best grip"
+        ],
+  
+        "inBox": [
+          "2x Parallettes MAX",
+          "1x Grip tape roll (10m)",
+          "1x Instruction manual with training guide"
+        ],
+  
+        "legalSafety": {
+          "manufacturer": "GORNATION GmbH",
+          "address": "Wienburgstraße 207, 48159 Münster, Germany",
+          "phone": "+49 251 98160998",
+          "email": "support@gornation.com",
+          "website": "https://www.gornation.com"
+        },
+  
+        "returns": {
+          "policy": "Return within 30 days (no reason needed)",
+          "steps": [
+            "Go to Returns Portal",
+            "Enter order number and email",
+            "Receive instructions via email"
+          ],
+          "notes": [
+            "Customer covers return shipping",
+            "Use tracked shipping",
+            "Upload photo if item is damaged"
+          ]
+        },
+  
+        "shipping": {
+          "type": "Fast & Secure Shipping",
+          "origin": "Designed in Sri Lanka",
+          "warranty": "2 Years Warranty"
+        },
+  
+        "documents": [
+          {
+            "name": "Training Guide PDF",
+            "url": "/docs/parallettes-guide.pdf"
+          }
+        ],
+  
+        "relatedProducts": [
+          {
+            "id": 2,
+            "name": "Gymnastic Rings Pro",
+            "slug": "gymnastic-rings-pro"
+          },
+          {
+            "id": 3,
+            "name": "Resistance Bands Set",
+            "slug": "resistance-bands-set"
+          }
+        ],
+  
+        "colors": ["Natural Wood", "Black"],
+  
+        "isNew": true,
+        "isFeatured": true,
+        "inStock": true,
+  
+        "createdAt": "2026-03-31T08:00:00Z"
+      }
+    ],
+  
+    "meta": {
+      "total": 1,
+      "categories": ["Calisthenics Equipment"],
+      "brands": ["PowerTrain"],
+      "currency": "USD",
+      "lastUpdated": "2026-03-31T00:00:00Z"
+    }
+  }
