@@ -1,5 +1,5 @@
 import React from 'react'
-import PowerTainMarquee from './PowerTainMarquee'
+import DrakonMarquee from './PowerTainMarquee'
 
 
 function Section04() {

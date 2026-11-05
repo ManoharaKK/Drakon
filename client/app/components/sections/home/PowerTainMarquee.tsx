@@ -2,7 +2,7 @@ const PHRASE = "DRAKON";
 const SEP = "  •  ";
 const COPIES = 14;
 
-export default function PowerTainMarquee() {
+export default function DrakonMarquee() {
   const row = (suffix: string) =>
     Array.from({ length: COPIES }, (_, i) => (
       <span

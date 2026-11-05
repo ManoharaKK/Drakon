@@ -1,11 +1,11 @@
 import React from 'react'
-import PowerTainMarquee from './PowerTainMarquee'
+import DrakonMarquee from './PowerTainMarquee'
 
 function Section07() {
   return (
     <div className='relative z-20 bg-white'>
         <div className='container-global'>
-          <PowerTainMarquee />
+          <DrakonMarquee />
         <video
                 className=" w-full h-[80vh] object-cover"
                 autoPlay
@@ -16,7 +16,7 @@ function Section07() {
                 <source src="/videos/home/Hero.mp4" type="video/mp4" />
             </video>
             <div className='mb-8 xl:mb-16'>
-            <PowerTainMarquee />
+            <DrakonMarquee />
             </div>
         </div>
     </div>
