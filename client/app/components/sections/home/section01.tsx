@@ -9,7 +9,7 @@ function section01() {
             {/* ---- VIDEO BACKGROUND ---- */}
             <video
                 className="absolute inset-0 w-full h-full object-cover"
-                src="/videos/home/hero.mp4"
+                src="/videos/home/Hero.mp4"
                 autoPlay
                 muted
                 loop
