@@ -9,12 +9,13 @@ function section01() {
             {/* ---- VIDEO BACKGROUND ---- */}
             <video
                 className="absolute inset-0 w-full h-full object-cover"
-                src="/videos/home/Hero.mp4"
                 autoPlay
                 muted
                 loop
                 playsInline
-            />
+            >
+                <source src="/videos/home/Hero.mp4" type="video/mp4" />
+            </video>
 
             {/* ---- DARK OVERLAY ---- */}
             <div className="absolute inset-0 bg-black/60" />
