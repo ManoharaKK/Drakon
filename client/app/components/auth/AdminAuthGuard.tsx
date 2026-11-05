@@ -80,6 +80,6 @@ export default function AdminAuthGuard({
   if (!allowed) {
     return null;
   }
-// kdkd
+// test
   return <>{children}</>;
 }
