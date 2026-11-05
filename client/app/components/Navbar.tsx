@@ -53,111 +53,139 @@ function MainNav({
   profileEmail,
   onOpenModal,
 }: MainNavProps) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav
-      className="container-global grid h-14 grid-cols-[1fr_auto_1fr] items-center gap-2 sm:h-16 sm:gap-4"
+      className="container-global relative h-14 sm:h-16"
       aria-label="Main"
     >
-      <div className="flex min-w-0 justify-start">
-        <Link
-          href="/"
-          className="shrink-0 text-sm font-semibold tracking-wide transition-opacity hover:opacity-80 sm:text-base"
-        >
-          DRAKON
-        </Link>
-      </div>
-      <ul className="flex items-center justify-center gap-3 text-sm font-medium sm:gap-6 sm:text-base">
-        <li>
+      {/* ── Desktop layout ── */}
+      <div className="hidden sm:grid h-full grid-cols-[1fr_auto_1fr] items-center gap-4">
+        <div className="flex min-w-0 justify-start">
           <Link
             href="/"
-            className={navLinkClass("/", pathname)}
-            aria-current={isActiveNavPath("/", pathname) ? "page" : undefined}
+            className="shrink-0 text-sm font-semibold tracking-wide transition-opacity hover:opacity-80 sm:text-base"
           >
-            Home
+            DRAKON
           </Link>
-        </li>
-        <li>
-          <Link
-            href="/Pages/Products"
-            className={navLinkClass("/Pages/Products", pathname)}
-            aria-current={isActiveNavPath("/Pages/Products", pathname) ? "page" : undefined}
-          >
-            Products
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/Pages/Workshop"
-            className={navLinkClass("/Pages/Workshop", pathname)}
-            aria-current={isActiveNavPath("/Pages/Workshop", pathname) ? "page" : undefined}
-          >
-            Workshop
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/Pages/Contacts"
-            className={navLinkClass("/Pages/Contacts", pathname)}
-            aria-current={isActiveNavPath("/Pages/Contacts", pathname) ? "page" : undefined}
-          >
-            Contacts
-          </Link>
-        </li>
-      </ul>
-      <ul className="flex min-w-0 items-center justify-end gap-2 text-sm font-medium sm:gap-4 sm:text-base">
-        {isLoggedIn && authRole === "admin" ? (
-          <li className="hidden md:block">
-            <Link
-              href="/Pages/admin/home"
-              className={navLinkClass("/Pages/admin", pathname)}
-              aria-current={isActiveNavPath("/Pages/admin", pathname) ? "page" : undefined}
-            >
-              Admin
+        </div>
+        <ul className="flex items-center justify-center gap-6 text-sm font-medium sm:text-base">
+          <li>
+            <Link href="/" className={navLinkClass("/", pathname)} aria-current={isActiveNavPath("/", pathname) ? "page" : undefined}>
+              Home
             </Link>
           </li>
-        ) : null}
-        {!isLoggedIn ? (
-          <>
-            <li>
-              <button
-                type="button"
-                onClick={() => onOpenModal("signup")}
-                className="border border-white px-3 py-1 text-xs uppercase tracking-wide transition-colors hover:bg-white hover:text-black sm:px-4 sm:text-sm"
-              >
-                Sign Up
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                onClick={() => onOpenModal("login")}
-                className="bg-white px-3 py-1 text-xs uppercase tracking-wide text-black transition-opacity hover:opacity-85 sm:px-4 sm:text-sm"
-              >
-                Login
-              </button>
-            </li>
-          </>
-        ) : null}
-        {isLoggedIn ? (
           <li>
-            <Link
-              href="/Pages/Profile"
-              className={`flex items-center gap-2 ${navLinkClass("/Pages/Profile", pathname)}`}
-              title="Profile"
-              aria-label="Profile"
-              aria-current={isActiveNavPath("/Pages/Profile", pathname) ? "page" : undefined}
-            >
-              <span
-                className="flex h-8 w-8 shrink-0 items-center justify-center bg-white text-sm font-semibold text-black sm:h-9 sm:w-9"
-                aria-hidden
-              >
+            <Link href="/Pages/Products" className={navLinkClass("/Pages/Products", pathname)} aria-current={isActiveNavPath("/Pages/Products", pathname) ? "page" : undefined}>
+              Products
+            </Link>
+          </li>
+          <li>
+            <Link href="/Pages/Workshop" className={navLinkClass("/Pages/Workshop", pathname)} aria-current={isActiveNavPath("/Pages/Workshop", pathname) ? "page" : undefined}>
+              Workshop
+            </Link>
+          </li>
+          <li>
+            <Link href="/Pages/Contacts" className={navLinkClass("/Pages/Contacts", pathname)} aria-current={isActiveNavPath("/Pages/Contacts", pathname) ? "page" : undefined}>
+              Contacts
+            </Link>
+          </li>
+        </ul>
+        <ul className="flex min-w-0 items-center justify-end gap-4 text-sm font-medium sm:text-base">
+          {isLoggedIn && authRole === "admin" ? (
+            <li>
+              <Link href="/Pages/admin/home" className={navLinkClass("/Pages/admin", pathname)} aria-current={isActiveNavPath("/Pages/admin", pathname) ? "page" : undefined}>
+                Admin
+              </Link>
+            </li>
+          ) : null}
+          {!isLoggedIn ? (
+            <>
+              <li>
+                <button type="button" onClick={() => onOpenModal("signup")} className="border border-white px-4 py-1 text-xs uppercase tracking-wide transition-colors hover:bg-white hover:text-black sm:text-sm">
+                  Sign Up
+                </button>
+              </li>
+              <li>
+                <button type="button" onClick={() => onOpenModal("login")} className="bg-white px-4 py-1 text-xs uppercase tracking-wide text-black transition-opacity hover:opacity-85 sm:text-sm">
+                  Login
+                </button>
+              </li>
+            </>
+          ) : null}
+          {isLoggedIn ? (
+            <li>
+              <Link href="/Pages/Profile" className={`flex items-center gap-2 ${navLinkClass("/Pages/Profile", pathname)}`} title="Profile" aria-label="Profile" aria-current={isActiveNavPath("/Pages/Profile", pathname) ? "page" : undefined}>
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center bg-white text-sm font-semibold text-black sm:h-9 sm:w-9" aria-hidden>
+                  {emailInitial(profileEmail)}
+                </span>
+                Profile
+              </Link>
+            </li>
+          ) : null}
+        </ul>
+      </div>
+
+      {/* ── Mobile layout ── */}
+      <div className="flex sm:hidden h-full items-center justify-between px-1">
+        <Link href="/" className="text-sm font-semibold tracking-wide transition-opacity hover:opacity-80">
+          DRAKON
+        </Link>
+        <div className="flex items-center gap-3">
+          {isLoggedIn ? (
+            <Link href="/Pages/Profile" aria-label="Profile" className={navLinkClass("/Pages/Profile", pathname)}>
+              <span className="flex h-8 w-8 items-center justify-center bg-white text-sm font-semibold text-black" aria-hidden>
                 {emailInitial(profileEmail)}
               </span>
-              Profile
             </Link>
-          </li>
-        ) : null}
-      </ul>
+          ) : null}
+          <button
+            type="button"
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            className="flex flex-col justify-center gap-[5px] p-1"
+          >
+            <span className={`block h-[2px] w-6 bg-white transition-transform duration-200 ${menuOpen ? "translate-y-[7px] rotate-45" : ""}`} />
+            <span className={`block h-[2px] w-6 bg-white transition-opacity duration-200 ${menuOpen ? "opacity-0" : ""}`} />
+            <span className={`block h-[2px] w-6 bg-white transition-transform duration-200 ${menuOpen ? "-translate-y-[7px] -rotate-45" : ""}`} />
+          </button>
+        </div>
+      </div>
+
+      {/* ── Mobile dropdown menu ── */}
+      {menuOpen && (
+        <div className="absolute left-0 right-0 top-full z-50 flex flex-col gap-0 border-t border-white/10 bg-black sm:hidden">
+          {[
+            { href: "/", label: "Home" },
+            { href: "/Pages/Products", label: "Products" },
+            { href: "/Pages/Workshop", label: "Workshop" },
+            { href: "/Pages/Contacts", label: "Contacts" },
+            ...(isLoggedIn && authRole === "admin" ? [{ href: "/Pages/admin/home", label: "Admin" }] : []),
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => setMenuOpen(false)}
+              className={`block px-5 py-4 text-sm font-medium tracking-wide border-b border-white/10 transition-colors hover:bg-white/5 ${isActiveNavPath(href, pathname) ? "underline underline-offset-4 decoration-white decoration-1" : ""}`}
+              aria-current={isActiveNavPath(href, pathname) ? "page" : undefined}
+            >
+              {label}
+            </Link>
+          ))}
+          {!isLoggedIn ? (
+            <div className="flex gap-3 px-5 py-4">
+              <button type="button" onClick={() => { onOpenModal("signup"); setMenuOpen(false); }} className="flex-1 border border-white py-2 text-xs uppercase tracking-wide transition-colors hover:bg-white hover:text-black">
+                Sign Up
+              </button>
+              <button type="button" onClick={() => { onOpenModal("login"); setMenuOpen(false); }} className="flex-1 bg-white py-2 text-xs uppercase tracking-wide text-black transition-opacity hover:opacity-85">
+                Login
+              </button>
+            </div>
+          ) : null}
+        </div>
+      )}
     </nav>
   );
 }

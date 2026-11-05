@@ -74,13 +74,14 @@ function Section02() {
             <div className='grid grid-cols-1 lg:grid-cols-5 gap-4 mt-8'>
               <div className='col-span-1 lg:col-span-3 overflow-hidden'>
                 <video
-                  src='/videos/home/Hero.mp4'
                   className='w-full h-full object-cover'
                   autoPlay
                   muted
                   loop
                   playsInline
-                />
+                >
+                  <source src='/videos/home/Hero.mp4' type='video/mp4' />
+                </video>
               </div>
               <div className='col-span-1 lg:col-span-2 overflow-hidden'>
                 <img
