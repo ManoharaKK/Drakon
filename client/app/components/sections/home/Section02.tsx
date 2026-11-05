@@ -12,7 +12,7 @@ function Section02() {
 
             <div className="container-global py-16">
                 <h2 className="subtitle text-right text-white/15">
-                    Fountation of power
+                    Be the Myth
                 </h2>
                 <h2 className="hero-title text-right text-white">Who We are</h2>
                 <div className="grid grid-cols-1 md:grid-cols-6 gap-4">
