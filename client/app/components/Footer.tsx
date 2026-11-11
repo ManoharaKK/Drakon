@@ -27,68 +27,43 @@ function Footer() {
               </div>
               <div>
                 <h2 className='subtitle-2 text-white'>
-                  Ready to start your learning journey?
+                  Be the 1%
                 </h2>
                 <p className='description mt-2 text-sm sm:text-base text-white/90'>
-                  Join thousands of students who are already upgrading their skills with
-                  expert-led courses, real-world projects, and certificates that stand out.
+                  Become part of the 1% who train with purpose. Drakon brings Sri Lanka&apos;s
+                  calisthenics athletes together to learn, compete, and rise as one community.
+                  Your strongest self starts here.
                 </p>
                 <div className='mt-4 flex flex-wrap items-center gap-3'>
                   <Footerbutton />
-                  <Footerbutton />
+                  <Footerbutton label='Products' href='/Pages/Products' />
                 </div>
               </div>
             </div>
 
             {/* Link columns */}
-            <div className='flex-1 grid grid-cols-1 gap-8 sm:grid-cols-3 text-sm'>
+            <div className='flex-1 grid grid-cols-1 gap-8 sm:grid-cols-2 text-sm'>
               <div>
-                <h3 className='font-semibold text-white'>Academy</h3>
+                <h3 className='font-semibold text-white'>Pages</h3>
                 <ul className='mt-3 space-y-2 text-white/80'>
                   <li>
-                    <Link href='#' className='hover:underline'>
-                      About us
+                    <Link href='/' className='hover:underline'>
+                      Home
                     </Link>
                   </li>
                   <li>
-                    <Link href='#' className='hover:underline'>
-                      Our mentors
+                    <Link href='/Pages/Products' className='hover:underline'>
+                      Products
                     </Link>
                   </li>
                   <li>
-                    <Link href='#' className='hover:underline'>
-                      Success stories
+                    <Link href='/Pages/Workshop' className='hover:underline'>
+                      Workshop
                     </Link>
                   </li>
                   <li>
-                    <Link href='#' className='hover:underline'>
-                      Blog
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className='font-semibold text-white'>Programs</h3>
-                <ul className='mt-3 space-y-2 text-white/80'>
-                  <li>
-                    <Link href='#' className='hover:underline'>
-                      Web Development
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='#' className='hover:underline'>
-                      UI/UX Design
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='#' className='hover:underline'>
-                      Data &amp; AI
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='#' className='hover:underline'>
-                      All courses
+                    <Link href='/Pages/Contacts' className='hover:underline'>
+                      Contacts
                     </Link>
                   </li>
                 </ul>
@@ -117,7 +92,7 @@ function Footer() {
 
           {/* Bottom bar */}
           <div className='mt-8 flex flex-col items-center justify-between gap-3 border-t border-white/20 pt-4 text-xs text-white/70 sm:flex-row sm:text-sm'>
-            <p>© 2026 Vertex Academy. All rights reserved.</p>
+            <p>© 2026 drakon calisthenics. All rights reserved.</p>
             <div className='flex items-center gap-4'>
               <Link href='#' className='hover:underline'>
                 Privacy Policy
